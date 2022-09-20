@@ -3,8 +3,8 @@ name: Deploy to Azure Container Apps
 on: workflow_dispatch
 
 env:
-  UNIQUE_APP_NAME: orleanscart
-  SILO_IMAGE_NAME: orleanscart-silo
+  UNIQUE_APP_NAME: alt-orleanscart
+  SILO_IMAGE_NAME: alt-orleanscart-silo
   AZURE_RESOURCE_GROUP_NAME: orleans-resourcegroup
   AZURE_RESOURCE_GROUP_LOCATION: eastus
 
