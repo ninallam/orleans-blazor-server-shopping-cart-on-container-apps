@@ -1,9 +1,6 @@
 name: Deploy to Azure Container Apps
 
-on:
-  push:
-    branches:
-    - main
+on: workflow_dispatch
 
 env:
   UNIQUE_APP_NAME: orleanscart
